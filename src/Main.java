@@ -15,11 +15,11 @@ public class Main {
 
         while (opcionNumero != 0){
             System.out.println("Debes escribir el número de la opción que quieras elegir: ");
-            System.out.println("O Salir del programa");
-            System.out.println("1 Calcular el perímetro y el área de un cuadrado");
-            System.out.println("2 Calcular el perímetro y el area de un rectangulo");
-            System.out.println("3 Calcular el perímetro y el area de un triangulo");
-            System.out.println("4 Calcular el perímetro y el area de un circulo");
+            System.out.println("O Salir del programa.");
+            System.out.println("1 Calcular el perímetro y el área de un cuadrado.");
+            System.out.println("2 Calcular el perímetro y el area de un rectangulo.");
+            System.out.println("3 Calcular el perímetro y el area de un triangulo.");
+            System.out.println("4 Calcular el perímetro y el area de un circulo.");
 
             opcion = sc.next().toLowerCase().charAt(0);
             opcionNumero = Character.getNumericValue(opcion);
@@ -30,7 +30,6 @@ public class Main {
                 case 1:
                     System.out.println("Para calcular el perímetro y el area del cuadrado necesito la longitud de su LADO en centímetros, SOLO debes escribir el número ;");
                     //Recogida de datos
-                    System.out.println("Lado del cuadrado: ");
                     ladoCuadrado = sc.nextDouble();
 
                     //Calculos
@@ -78,7 +77,6 @@ public class Main {
                     break;
                 case 4:
                     System.out.println("Para calcular el perímetro y el area del circulo necesito su RADIO en centímetros, SOLO debes escribir el numero ;)");
-                    System.out.println("Radio del circulo: ");
                     radioCirculo = sc.nextDouble();
 
                     //Calculos
